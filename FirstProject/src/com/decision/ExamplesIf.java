@@ -1,4 +1,4 @@
-package com.Decision.Exapmles;
+package com.decision;
 
 public class ExamplesIf {
 
