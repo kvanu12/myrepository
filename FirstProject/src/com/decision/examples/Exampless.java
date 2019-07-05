@@ -1,20 +1,28 @@
-package com.decision;
+package com.decision.examples;
+
+import java.util.Scanner;
 
 public class Exampless {
 
 	public static void main(String[] args) {
 		
 		
-		int car = 500000;
-		
-		if(car <500000) {
+		int car,insurance;
 			
-		System.out.println("car insurance is 10000");
+		Scanner input = new Scanner(System.in);		
+		 	
+			System.out.println("Price of the car");
+		car = input.nextInt();
+		
+		if(car<= 20000) {
+			
+			System.out.println("Insurance of car is 20000");
+			
 		
 			
 		}else {
 			
-			System.out.println("car insurance is 20000");
+			System.out.println("Insurance of car is 35000");
 		}
 			
 	
