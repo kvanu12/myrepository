@@ -14,17 +14,17 @@ public class Exampless {
 			System.out.println("Price of the car");
 		car = input.nextInt();
 		
-		if(car<= 20000) {
+		if(car<= 500000) {
 			
-			System.out.println("Insurance of car is 20000");
-			
-		
+			insurance = 20000;
 			
 		}else {
 			
-			System.out.println("Insurance of car is 35000");
+			insurance =35000;
 		}
-			
+		
+		System.out.println("Insurance of car is "+insurance);
+		input.close();
 	
 		
 	}
