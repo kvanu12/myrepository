@@ -4,7 +4,7 @@ public class Employee {
 
 	int empno = 0;
 	String empname ;
-	int empsalary = 0;
+    int empsalary = 0;
 	int empbonus;
 		
 // Parameterized Constructor
